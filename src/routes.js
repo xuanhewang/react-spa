@@ -12,13 +12,13 @@ class Routers extends React.Component {
     render() {
         return (
             <Router history={hashHistory}>
-              <Route path='/' component={App}>
-                <IndexRoute component={Home}/>
-                <Route path='blog' component={Blog}/>
-                <Route path='work' component={Work}/>
-                <Route path='about' component={About}/>
-                <Route path='blog/:url' component={Item}/>
-              </Route>
+                <Route path='/' component={App}>
+                    <IndexRoute component={Home}/>
+                    <Route path='blog' component={Blog}/>
+                    <Route path='work' component={Work}/>
+                    <Route path='about' component={About}/>
+                    <Route path='blog/:url' component={Item}/>
+                </Route>
             </Router>
         )
     }
