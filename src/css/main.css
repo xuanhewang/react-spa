@@ -92,7 +92,7 @@ ul{list-style: none;margin: 0;padding: 0;}
     flex-direction: row;
   }
   .left-nav{
-    width: 300px;
+    width: 200px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
